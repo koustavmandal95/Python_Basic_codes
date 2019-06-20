@@ -1,3 +1,12 @@
+'''
+Now, let's compare each individual score:
+a=[12,23,45]
+b=[12,45,23]
+a[0]>b[0], so Alice receives  point.
+a[0]<b[0], so nobody receives a point.
+a[0]==b[0], so Bob receives  point.
+o/p===> [1,1]
+'''
 import math
 import os
 import random
