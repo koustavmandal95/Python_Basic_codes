@@ -16,3 +16,22 @@ def main_dict():
     teams=OrderedDict(s)
     print(teams)
 main_dict()
+>>> a=[0]*4
+>>> a
+[0, 0, 0, 0]
+>>> c=[]
+>>> for _ in range(4):
+	c.append(a)
+>>> c
+[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+>>> for i,j in zip(range(3,-1,-1),range(3,-1,-1)):
+	print(a[i][j])
+>>> for i,j in zip(range(3,-1,-1),range(3,-1,-1)):
+	print(c[i][j])
+
+	
+0
+0
+0
+0
+>>> 
