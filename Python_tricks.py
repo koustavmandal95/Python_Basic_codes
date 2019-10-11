@@ -34,4 +34,9 @@ main_dict()
 0
 0
 0
->>> 
+# The tricks with join
+>>> a="abcxxdefxx"
+>>> xa="".join(x for x in a if x!='x') # removing x from the string.
+>>> xa
+'abcdef'
+>>>
